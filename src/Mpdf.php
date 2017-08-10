@@ -11793,7 +11793,6 @@ class Mpdf implements \Psr\Log\LoggerAwareInterface
 			$this->_out('endobj');
 		}
 	}
-
 	function _freadint($f)
 	{
 		$i = ord(fread($f, 1)) << 24;
@@ -25057,7 +25056,6 @@ class Mpdf implements \Psr\Log\LoggerAwareInterface
 			$this->_out('endobj');
 		}
 	}
-
 	function _putjavascript()
 	{
 		$this->_newobj();
